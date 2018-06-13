@@ -1,4 +1,4 @@
-CFLAG += -g -O0
+CFLAG += -g -O0 -Wall
 
 main: main.c
 	@gcc $(CFLAG) -o $@ $<
